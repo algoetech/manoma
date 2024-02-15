@@ -1,0 +1,21 @@
+{
+    "name": "manoma/testing",
+    "description": "Testinf for creating php dependance package for ITU08103",
+    "type": "library",
+    "require": {
+        "guzzlehttp/psr7": "^2.6"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Manoma\\Testing\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Manoma Hamad",
+            "email": "hamadaimanoma1@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable"
+}
